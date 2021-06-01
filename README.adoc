@@ -1,0 +1,6 @@
+= Execução
+
+* Executar o Redis: `docker run -it --name redis -p 6379:6379 redis:6.2.3`
+* Acessar o shell da imagem: `docker exec -it redis sh`
+** Redis CLI: Executar o comando: `redis-cli`
+*** Listar todas as chaves de cache: `KEYS '*'`

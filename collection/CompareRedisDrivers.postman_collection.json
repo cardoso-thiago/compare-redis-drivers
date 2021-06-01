@@ -1,0 +1,104 @@
+{
+	"info": {
+		"_postman_id": "46f692ae-a4bd-4e00-a1fc-5d9a5db849db",
+		"name": "CompareRedisDrivers",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "AddArtistLettuce",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n{\"name\": \"(International) Noise Conspiracy, The\"},\n{\"name\": \"40 Great Drink Songs\"},\n{\"name\": \"5.6.7.8's, The\"},\n{\"name\": \"A Whisper in the Noise\"},\n{\"name\": \"A-Ha\"},\n{\"name\": \"AC4\"},\n{\"name\": \"Aerosmith\"},\n{\"name\": \"Aimee Mann\"},\n{\"name\": \"Air\"},\n{\"name\": \"Aislers Set, The\"},\n{\"name\": \"Akeboshi\"},\n{\"name\": \"Alanis Morissete\"},\n{\"name\": \"Alice In Chains\"},\n{\"name\": \"Alicia Keys\"},\n{\"name\": \"All Girl Summer Fun Band\"},\n{\"name\": \"Amy Winehouse\"},\n{\"name\": \"Ana Tijoux\"},\n{\"name\": \"And You Will Know Us by the Trail of Dead\"},\n{\"name\": \"Ani Difranco\"},\n{\"name\": \"Animals, The\"},\n{\"name\": \"Apoptygma Berzerk\"},\n{\"name\": \"Apples in Stereo, The\"},\n{\"name\": \"Aquabats, The\"},\n{\"name\": \"Arcada Fire, The\"},\n{\"name\": \"Arch Enemy\"},\n{\"name\": \"Architecture in Helsinki\"},\n{\"name\": \"Archive\"},\n{\"name\": \"Arctic Monkeys\"},\n{\"name\": \"Aretha Franklin\"},\n{\"name\": \"Ashley MacIsaac\"},\n{\"name\": \"Asian Kung Fu Generation\"},\n{\"name\": \"Astor Piazzolla\"},\n{\"name\": \"At The Drive-In\"},\n{\"name\": \"Atari Teenage Riot\"},\n{\"name\": \"Atomic Bitchwax, The\"},\n{\"name\": \"Audioslave\"},\n{\"name\": \"Avengers, The\"},\n{\"name\": \"Avial\"},\n{\"name\": \"Awolnation\"},\n{\"name\": \"Ayumi Hamasaki\"},\n{\"name\": \"B5\"},\n{\"name\": \"Babes in Toyland\"},\n{\"name\": \"Babyshambles\"},\n{\"name\": \"Backyard Babies\"},\n{\"name\": \"Bad Religion\"},\n{\"name\": \"Baha Men\"},\n{\"name\": \"BalÆo M gico\"},\n{\"name\": \"Bambix\"},\n{\"name\": \"Banda do Mar\"},\n{\"name\": \"Barenaked Ladies\"},\n{\"name\": \"Baroness\"},\n{\"name\": \"BarÆo Vermelho\"},\n{\"name\": \"Bauhaus\"},\n{\"name\": \"Beach Boys, The\"},\n{\"name\": \"Beastie Boys\"},\n{\"name\": \"Beat Happening\"},\n{\"name\": \"Beatles, The\"},\n{\"name\": \"Beck\"},\n{\"name\": \"Bee Gees\"},\n{\"name\": \"Bees, The\"},\n{\"name\": \"Belle & Sebastian\"},\n{\"name\": \"Ben Kweller\"},\n{\"name\": \"Benny Benassi\"},\n{\"name\": \"Better Than Ezra\"},\n{\"name\": \"Bhangra Collection\"},\n{\"name\": \"Bid ou Balde\"},\n{\"name\": \"Bigwig\"},\n{\"name\": \"Bikini Kill\"},\n{\"name\": \"Bill Haley\"},\n{\"name\": \"Biquini CavadÆo\"},\n{\"name\": \"Bitch Alert\"},\n{\"name\": \"Bjrk\"},\n{\"name\": \"Black Box Recorder\"},\n{\"name\": \"Black Crowes, The\"},\n{\"name\": \"Black Eyed Peas\"},\n{\"name\": \"Black Flag\"},\n{\"name\": \"Black Stone Cherry\"},\n{\"name\": \"Blasters, The\"},\n{\"name\": \"Blind Guardian\"},\n{\"name\": \"Blink 182\"},\n{\"name\": \"Bloc Party\"},\n{\"name\": \"Blondie\"},\n{\"name\": \"Blood Brothers, The\"},\n{\"name\": \"Blur\"},\n{\"name\": \"Bob Dylan\"},\n{\"name\": \"Bob Marley\"},\n{\"name\": \"Bob Mc Ferryn\"},\n{\"name\": \"Bonnie Tyler\"},\n{\"name\": \"Boom Boom Kid\"},\n{\"name\": \"Bowling For Soup\"},\n{\"name\": \"Boyfriends, The\"},\n{\"name\": \"Bratmobile\"},\n{\"name\": \"Bravery, The\"},\n{\"name\": \"Breeders, The\"},\n{\"name\": \"Bright Eyes\"},\n{\"name\": \"Buena Vista Social Club\"},\n{\"name\": \"Bush\"},\n{\"name\": \"Butchies, The\"},\n{\"name\": \"Buzzcocks\"},\n{\"name\": \"Cachorro Grande\"},\n{\"name\": \"Cadallaca\"},\n{\"name\": \"Caetano Veloso\"},\n{\"name\": \"Cake\"},\n{\"name\": \"Cansei de Ser Sexy\"},\n{\"name\": \"Capital Inicial\"},\n{\"name\": \"Carcass\"},\n{\"name\": \"Cardigans, The\"},\n{\"name\": \"Cat Power\"},\n{\"name\": \"Chain Of Strength\"},\n{\"name\": \"Chemical Brothers, The\"},\n{\"name\": \"Chevelle\"},\n{\"name\": \"Chicks On Speed\"},\n{\"name\": \"Christ And Emily\"},\n{\"name\": \"Chuck Berry\"},\n{\"name\": \"Cibo Matto\"},\n{\"name\": \"Clap Your Hands Say Yeah\"},\n{\"name\": \"Clara's Star\"},\n{\"name\": \"Clarika\"},\n{\"name\": \"Clash, The\"},\n{\"name\": \"Cloud Room, The\"},\n{\"name\": \"Coldplay\"},\n{\"name\": \"Comunidade Ninjitsu\"},\n{\"name\": \"Corrosion of Conformity\"},\n{\"name\": \"Country Joe & The Fish\"},\n{\"name\": \"Courteeners, The\"},\n{\"name\": \"Couting Crowns\"},\n{\"name\": \"Cowboy Junkies\"},\n{\"name\": \"Crabs, The\"},\n{\"name\": \"Cramps, The\"},\n{\"name\": \"Crash of Rhinos\"},\n{\"name\": \"Creed\"},\n{\"name\": \"Crystal Method, The\"},\n{\"name\": \"Cure, The\"},\n{\"name\": \"Curve\"},\n{\"name\": \"Cypress Hill\"},\n{\"name\": \"Daft Punk\"},\n{\"name\": \"Daisy Chainsaw\"},\n{\"name\": \"Dandy Warhols, The\"},\n{\"name\": \"Darling Violetta\"},\n{\"name\": \"Daughter Darling\"},\n{\"name\": \"Dave Matthews Band\"},\n{\"name\": \"Dead Kennedys\"},\n{\"name\": \"Dead Meadow\"},\n{\"name\": \"Dears, The\"},\n{\"name\": \"Death Cab For Cutie\"},\n{\"name\": \"Death From Above 1979\"},\n{\"name\": \"Dee Joy\"},\n{\"name\": \"Dee-Lite\"},\n{\"name\": \"Deerhoof\"},\n{\"name\": \"Denali\"},\n{\"name\": \"Depeche Mode\"},\n{\"name\": \"Devendra Banhart\"},\n{\"name\": \"Diana King\"},\n{\"name\": \"Dido\"},\n{\"name\": \"Die Antwoord\"},\n{\"name\": \"Dinosaur Jr\"},\n{\"name\": \"Dirty Three\"},\n{\"name\": \"Distillers, The\"},\n{\"name\": \"DJ Patife & Fernanda Porto\"},\n{\"name\": \"DJ Shadow\"},\n{\"name\": \"Djavan\"},\n{\"name\": \"Dominatrix\"},\n{\"name\": \"Doors, The\"},\n{\"name\": \"Doves\"},\n{\"name\": \"Dresden Dolls, The\"},\n{\"name\": \"Drive Like Jehu\"},\n{\"name\": \"Dropkick Murphys\"},\n{\"name\": \"Dubmatique\"},\n{\"name\": \"Eagle Eye Cherry\"},\n{\"name\": \"Eagles Of Death Metal\"},\n{\"name\": \"Echo & The Bunnymen\"},\n{\"name\": \"Edna's Goldfish\"},\n{\"name\": \"Eels\"},\n{\"name\": \"Elastica\"},\n{\"name\": \"Eletric Wizard\"},\n{\"name\": \"Elis Regina\"},\n{\"name\": \"Ella Fitzgerald\"},\n{\"name\": \"Elle Milano\"},\n{\"name\": \"Elliott Smith\"},\n{\"name\": \"Elvis Costello\"},\n{\"name\": \"Elvis Presley\"},\n{\"name\": \"Emilie Simon\"},\n{\"name\": \"Emily Loizeau\"},\n{\"name\": \"Empyrium\"},\n{\"name\": \"Engenheiros do Hawa¡\"},\n{\"name\": \"Era\"},\n{\"name\": \"Eric Clapton\"},\n{\"name\": \"Evanescence\"},\n{\"name\": \"Everything But The Girl\"},\n{\"name\": \"Excuse 17\"},\n{\"name\": \"Explosions In The Sky\"},\n{\"name\": \"Extreme\"},\n{\"name\": \"F-Minus\"},\n{\"name\": \"Fabolous Disater\"},\n{\"name\": \"Faichecleres\"},\n{\"name\": \"Faith no More\"},\n{\"name\": \"Fall of Troy, The\"},\n{\"name\": \"Fatboy Slim\"},\n{\"name\": \"Fear Factory\"},\n{\"name\": \"Fiona Apple\"},\n{\"name\": \"Flaming Lips, The\"},\n{\"name\": \"Flobots\"},\n{\"name\": \"Flogging Molly\"},\n{\"name\": \"Focus\"},\n{\"name\": \"Fonzie\"},\n{\"name\": \"Foo Figthers\"},\n{\"name\": \"Frank Sinatra\"},\n{\"name\": \"Franz Ferdinand\"},\n{\"name\": \"Fratellis, The\"},\n{\"name\": \"Free Kitten\"},\n{\"name\": \"Frejat\"},\n{\"name\": \"From First To Last\"},\n{\"name\": \"Frou Frou\"},\n{\"name\": \"Fu Manchu\"},\n{\"name\": \"Fugazi\"},\n{\"name\": \"Fugees\"},\n{\"name\": \"Garbage\"},\n{\"name\": \"Gene Defcon\"},\n{\"name\": \"Girlschool\"},\n{\"name\": \"Glitter Mini 9\"},\n{\"name\": \"Gloria Gaynor\"},\n{\"name\": \"Gnarls Barkley\"},\n{\"name\": \"Gold Collection Rock and Roll, The\"},\n{\"name\": \"Goldfinger\"},\n{\"name\": \"Goldfrapp\"},\n{\"name\": \"Gorillaz\"},\n{\"name\": \"Gossip, The\"},\n{\"name\": \"Gram\"},\n{\"name\": \"Grant Lee Buffalo\"},\n{\"name\": \"Grates, The\"},\n{\"name\": \"Graveyard\"},\n{\"name\": \"Gravy Train\"},\n{\"name\": \"Green Day\"},\n{\"name\": \"Guillemots\"},\n{\"name\": \"Guttermouth\"},\n{\"name\": \"Gym Class Heroes\"},\n{\"name\": \"Half Cocked\"},\n{\"name\": \"Har Mar Superstar\"},\n{\"name\": \"Heartless Martin\"},\n{\"name\": \"Heavens to Betsy\"},\n{\"name\": \"Helium\"},\n{\"name\": \"Hellacopters\"},\n{\"name\": \"Herbie Hancock\"},\n{\"name\": \"Hives, The\"},\n{\"name\": \"Hole\"},\n{\"name\": \"Hoobastank\"},\n{\"name\": \"Hot Hot Heat\"},\n{\"name\": \"Houdini\"},\n{\"name\": \"Ice Nine Kills\"},\n{\"name\": \"Incubus\"},\n{\"name\": \"Information Society\"},\n{\"name\": \"Inga Liljestrom\"},\n{\"name\": \"Interpol\"},\n{\"name\": \"iPod\"},\n{\"name\": \"Ira!\"},\n{\"name\": \"Jack Johnson\"},\n{\"name\": \"Jack off Jill\"},\n{\"name\": \"Jamiroquai\"},\n{\"name\": \"Janis Joplin\"},\n{\"name\": \"Jeff Buckley\"},\n{\"name\": \"Jefferson Airplane\"},\n{\"name\": \"Jerry Lee Lewis\"},\n{\"name\": \"Jet\"},\n{\"name\": \"Jimi Hendrix\"},\n{\"name\": \"JJ72\"},\n{\"name\": \"Joe Cocker\"},\n{\"name\": \"John Butler Trio, The\"},\n{\"name\": \"John Lennon\"},\n{\"name\": \"John Mayer\"},\n{\"name\": \"John Secada\"},\n{\"name\": \"Johnny Cash\"},\n{\"name\": \"Jon Spencer Blues Explosion, The\"},\n{\"name\": \"Joss Stone\"},\n{\"name\": \"Jota Quest\"},\n{\"name\": \"Kacttus\"},\n{\"name\": \"Kaiser Chiefs\"},\n{\"name\": \"Kansas\"},\n{\"name\": \"Kasabian\"},\n{\"name\": \"Kate Nash\"},\n{\"name\": \"Keane\"},\n{\"name\": \"Kensington Square\"},\n{\"name\": \"Killers, The\"},\n{\"name\": \"Killi\"},\n{\"name\": \"Killing Joke\"},\n{\"name\": \"Kills, The\"},\n{\"name\": \"Kimya Dawson\"},\n{\"name\": \"Kings of Convenience, The\"},\n{\"name\": \"Kings of Leon\"},\n{\"name\": \"Kinks, The\"},\n{\"name\": \"Kittie\"},\n{\"name\": \"Kleenex-Liliput\"},\n{\"name\": \"Kooks, The\"},\n{\"name\": \"Korn\"},\n{\"name\": \"Kraftwerk\"},\n{\"name\": \"KT Tunstall\"},\n{\"name\": \"Kym Mazelle\"},\n{\"name\": \"Kyuss\"},\n{\"name\": \"Lamb\"},\n{\"name\": \"Lauryn Hill\"},\n{\"name\": \"LCD Soundsystem\"},\n{\"name\": \"Le Tigre\"},\n{\"name\": \"Led Zeppelin\"},\n{\"name\": \"LegiÆo Urbana\"},\n{\"name\": \"Lemonheads\"},\n{\"name\": \"Less Than Jake\"},\n{\"name\": \"Libertines, The\"},\n{\"name\": \"Lillix\"},\n{\"name\": \"Lily Allen\"},\n{\"name\": \"Limp Bizkit\"},\n{\"name\": \"Linkin Park\"},\n{\"name\": \"Los Hermanos\"},\n{\"name\": \"Loudon Wainwright III\"},\n{\"name\": \"Louis Armstrong\"},\n{\"name\": \"Lovage\"},\n{\"name\": \"Ludov\"},\n{\"name\": \"Lumineers, The\"},\n{\"name\": \"Lynyrd Skynyrd\"},\n{\"name\": \"Mad Season\"},\n{\"name\": \"Magic Numbers, The\"},\n{\"name\": \"Mamonas Assasinas\"},\n{\"name\": \"Manic Street Preachers\"},\n{\"name\": \"Manowar\"},\n{\"name\": \"Manu Chao\"},\n{\"name\": \"Marcels, The\"},\n{\"name\": \"Marcy Playground\"},\n{\"name\": \"Maria Rita\"},\n{\"name\": \"Marilyn Manson\"},\n{\"name\": \"Marisa Monte\"},\n{\"name\": \"Maroon 5\"},\n{\"name\": \"Martha Wainwright\"},\n{\"name\": \"Mary Timony\"},\n{\"name\": \"Massive Attack\"},\n{\"name\": \"Mastodon\"},\n{\"name\": \"Matanza\"},\n{\"name\": \"Matisyahu\"},\n{\"name\": \"Megadeth\"},\n{\"name\": \"Melissa Auf Der Maur\"},\n{\"name\": \"Men At Work\"},\n{\"name\": \"Metallica\"},\n{\"name\": \"Metric\"},\n{\"name\": \"Michelle Branch\"},\n{\"name\": \"Mighty Mighty Bosstones\"},\n{\"name\": \"Misser\"},\n{\"name\": \"Moby\"},\n{\"name\": \"Mogwai\"},\n{\"name\": \"Monkees, The\"},\n{\"name\": \"Mother Love Bone\"},\n{\"name\": \"Motrhead\"},\n{\"name\": \"Mudhoney\"},\n{\"name\": \"Mundo Livre S.A\"},\n{\"name\": \"Muse\"},\n{\"name\": \"MxPx\"},\n{\"name\": \"My Bloody Valentine\"},\n{\"name\": \"M¢veis Coloniais de Acaju\"},\n{\"name\": \"Nando Reis\"},\n{\"name\": \"Nashville Pussy\"},\n{\"name\": \"Natiruts\"},\n{\"name\": \"Neil Young\"},\n{\"name\": \"Neko Case\"},\n{\"name\": \"Nekromantix\"},\n{\"name\": \"Nenhum de N¢s\"},\n{\"name\": \"New Found Glory\"},\n{\"name\": \"New York Dolls\"},\n{\"name\": \"Nick Cave & the Bad Seeds\"},\n{\"name\": \"Nickelback\"},\n{\"name\": \"Nine Inch Nails\"},\n{\"name\": \"Nirvana\"},\n{\"name\": \"No Doubt\"},\n{\"name\": \"No Te Va A Gustar\"},\n{\"name\": \"Noah And The Whale\"},\n{\"name\": \"NOFX\"},\n{\"name\": \"O Teatro Magico\"},\n{\"name\": \"Oasis\"},\n{\"name\": \"Ocean Colour Scene\"},\n{\"name\": \"OK Go\"},\n{\"name\": \"Olivia Newton John\"},\n{\"name\": \"Olivia Ruiz\"},\n{\"name\": \"Olivia Tremor Control, The\"},\n{\"name\": \"Operation Ivy\"},\n{\"name\": \"Operator Please\"},\n{\"name\": \"Os Cabeloduro\"},\n{\"name\": \"Os Cervejas\"},\n{\"name\": \"Os Pedrero\"},\n{\"name\": \"Os Thompsons\"},\n{\"name\": \"Os Tribalistas\"},\n{\"name\": \"Otep\"},\n{\"name\": \"Outfield, The\"},\n{\"name\": \"Outkast\"},\n{\"name\": \"Ozzy Osbourne\"},\n{\"name\": \"Papa Roach\"},\n{\"name\": \"Paralamas do Sucesso\"},\n{\"name\": \"Paris Combo\"},\n{\"name\": \"Pato Fu\"},\n{\"name\": \"Patti Smith\"},\n{\"name\": \"Paul McCartney\"},\n{\"name\": \"Pauline Croze\"},\n{\"name\": \"Pearl Jam\"},\n{\"name\": \"Pee Chees\"},\n{\"name\": \"Penlope\"},\n{\"name\": \"Pet Shop Boys\"},\n{\"name\": \"Pete Doherty\"},\n{\"name\": \"Phobia\"},\n{\"name\": \"Phoebe Buffay\"},\n{\"name\": \"Pink Floyd\"},\n{\"name\": \"Pixies\"},\n{\"name\": \"Pizzicato Five\"},\n{\"name\": \"PJ Harvey\"},\n{\"name\": \"Placebo\"},\n{\"name\": \"Platters, The\"},\n{\"name\": \"Pogues, The\"},\n{\"name\": \"Police, The\"},\n{\"name\": \"Polysics\"},\n{\"name\": \"Portishead\"},\n{\"name\": \"Postal Service, The\"},\n{\"name\": \"Potshot\"},\n{\"name\": \"Pretty Girls Make Graves\"},\n{\"name\": \"Priestess\"},\n{\"name\": \"Prodigy\"},\n{\"name\": \"Propellerheads\"},\n{\"name\": \"Puppini Sisters, The\"},\n{\"name\": \"Quasi\"},\n{\"name\": \"Queen\"},\n{\"name\": \"Queens of the Stone Age\"},\n{\"name\": \"Queensryche\"},\n{\"name\": \"R.E.M\"},\n{\"name\": \"Raconteurs, The\"},\n{\"name\": \"Radiohead\"},\n{\"name\": \"Rage Against the Machine\"},\n{\"name\": \"Raimundos\"},\n{\"name\": \"Rainer Maria\"},\n{\"name\": \"Rakes, The\"},\n{\"name\": \"Rammstein\"},\n{\"name\": \"Ramones\"},\n{\"name\": \"Rancid\"},\n{\"name\": \"Rapture, The\"},\n{\"name\": \"Rasmus, The\"},\n{\"name\": \"Rasputina\"},\n{\"name\": \"Ratatat\"},\n{\"name\": \"Razorlight\"},\n{\"name\": \"Red Fang\"},\n{\"name\": \"Red Hot Chili Peppers\"},\n{\"name\": \"Reel Big Fish\"},\n{\"name\": \"Refused\"},\n{\"name\": \"Regina Spektor\"},\n{\"name\": \"Reign Of Kindo, The\"},\n{\"name\": \"Replicantes\"},\n{\"name\": \"Rhapsody\"},\n{\"name\": \"Richard Ashcroft\"},\n{\"name\": \"Ritchie Valens\"},\n{\"name\": \"Rizzo\"},\n{\"name\": \"Rock Rocket\"},\n{\"name\": \"Rogrio Skylab\"},\n{\"name\": \"Roupa Nova\"},\n{\"name\": \"Rumjacks, The\"},\n{\"name\": \"Rush\"},\n{\"name\": \"Sahara Hotnights\"},\n{\"name\": \"Sambomaster\"},\n{\"name\": \"Samsara Blues Experiment\"},\n{\"name\": \"Satanic Surfers\"},\n{\"name\": \"Save Ferris\"},\n{\"name\": \"Seasick Steve\"},\n{\"name\": \"Seu Jorge\"},\n{\"name\": \"Seven Year Bitch\"},\n{\"name\": \"Sexy Tofu\"},\n{\"name\": \"Shaman\"},\n{\"name\": \"Shania Twain\"},\n{\"name\": \"Sheryl Crow\"},\n{\"name\": \"Shiny Toy Guns\"},\n{\"name\": \"Sick Lipstick, The\"},\n{\"name\": \"Sigur R¢s\"},\n{\"name\": \"Silverchair\"},\n{\"name\": \"Sinad O'Connor\"},\n{\"name\": \"Siouxsie & The Banshees\"},\n{\"name\": \"Ska-P\"},\n{\"name\": \"Skrillex\"},\n{\"name\": \"Skunk Anansie\"},\n{\"name\": \"Slayer\"},\n{\"name\": \"Sleater-Kinney\"},\n{\"name\": \"Slipknot\"},\n{\"name\": \"Slowdive\"},\n{\"name\": \"Smash Mouth\"},\n{\"name\": \"Smashing Pumpkins\"},\n{\"name\": \"Smiths, The\"},\n{\"name\": \"Soma Sonic\"},\n{\"name\": \"Sonic Youth\"},\n{\"name\": \"Sons and Daughters\"},\n{\"name\": \"Soundgarden\"},\n{\"name\": \"Spells, The\"},\n{\"name\": \"Staind\"},\n{\"name\": \"Static-X\"},\n{\"name\": \"Stereo Total\"},\n{\"name\": \"Stereolab\"},\n{\"name\": \"Stone Roses, The\"},\n{\"name\": \"Stooges, The\"},\n{\"name\": \"Streetlight Manifesto\"},\n{\"name\": \"Streets, The\"},\n{\"name\": \"Strokes, The\"},\n{\"name\": \"Sub Debs\"},\n{\"name\": \"Sublime\"},\n{\"name\": \"Subways, The\"},\n{\"name\": \"Sugar Ray\"},\n{\"name\": \"Sugar Tampaxxx\"},\n{\"name\": \"Sugarcubes\"},\n{\"name\": \"Suicidal Tendecies\"},\n{\"name\": \"Super Furry Animals\"},\n{\"name\": \"Superbus\"},\n{\"name\": \"Supergrass\"},\n{\"name\": \"Sweet\"},\n{\"name\": \"Sword, The\"},\n{\"name\": \"System of a Down\"},\n{\"name\": \"Talking Heads\"},\n{\"name\": \"Team Dresch\"},\n{\"name\": \"Tears for Fears\"},\n{\"name\": \"Ted Leo and the Pharmacists\"},\n{\"name\": \"Ted Nugent\"},\n{\"name\": \"Tenacious D\"},\n{\"name\": \"These Arms Are Snakes\"},\n{\"name\": \"Thin Lizzy\"},\n{\"name\": \"Third Grade Scuffle\"},\n{\"name\": \"Three Doors Down\"},\n{\"name\": \"Thrills, The\"},\n{\"name\": \"Thurston Moore\"},\n{\"name\": \"Tiger Army\"},\n{\"name\": \"Ting Tings, The\"},\n{\"name\": \"Tones on Tail\"},\n{\"name\": \"Tool\"},\n{\"name\": \"Tossers, The\"},\n{\"name\": \"Travis\"},\n{\"name\": \"Tricky\"},\n{\"name\": \"Trilhas Sonoras\"},\n{\"name\": \"Tristania\"},\n{\"name\": \"Tullycraft\"},\n{\"name\": \"U2\"},\n{\"name\": \"Unwound\"},\n{\"name\": \"Vandals, The\"},\n{\"name\": \"Vanessa Carlton\"},\n{\"name\": \"Velhas Virgens\"},\n{\"name\": \"Velvet Revolver\"},\n{\"name\": \"Velvet Underground\"},\n{\"name\": \"Veruca Salt\"},\n{\"name\": \"Verve, The\"},\n{\"name\": \"Village People\"},\n{\"name\": \"Vines, The\"},\n{\"name\": \"Violent Femmes\"},\n{\"name\": \"Von Bondies, The\"},\n{\"name\": \"Voodoo Glow Skulls\"},\n{\"name\": \"Walk off the Earth\"},\n{\"name\": \"Wallflowers, The\"},\n{\"name\": \"Walter Murphy\"},\n{\"name\": \"Weezer\"},\n{\"name\": \"White Buffalo, The\"},\n{\"name\": \"White Stripes, The\"},\n{\"name\": \"Who, The\"},\n{\"name\": \"Wilco\"},\n{\"name\": \"Wild Flag\"},\n{\"name\": \"Witchcraft\"},\n{\"name\": \"Wolf Parade\"},\n{\"name\": \"Wolfmother\"},\n{\"name\": \"Wonders, The\"},\n{\"name\": \"Wye Oak\"},\n{\"name\": \"Yann Tiersen\"},\n{\"name\": \"Yeah Yeah Yeahs\"},\n{\"name\": \"Yellow Machine Gun\"},\n{\"name\": \"Yellowcard\"},\n{\"name\": \"Yo La Tengo\"},\n{\"name\": \"Yoko Kanno\"},\n{\"name\": \"Young People\"},\n{\"name\": \"Younha\"},\n{\"name\": \"Yvonne Elliman\"},\n{\"name\": \"Zebrahead\"},\n{\"name\": \"Zumbis do Espao\"},\n{\"name\": \"Zwan\"},\n{\"name\": \"ZZ Top\"},\n{\"name\": \"Z Maria\"}\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9999/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SearchArtistLettuce",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/search/c",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"search",
+						"c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllArtistsLettuce",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddNewArtistsLettuce",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n{\"name\": \"Delvon Lamarr Organ Trio\"}\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9999/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"add"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
