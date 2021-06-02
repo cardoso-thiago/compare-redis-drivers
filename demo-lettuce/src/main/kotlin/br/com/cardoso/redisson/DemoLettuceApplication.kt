@@ -1,4 +1,4 @@
-package br.com.cardoso.lettuce
+package br.com.cardoso.redisson
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

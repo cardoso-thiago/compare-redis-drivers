@@ -1,6 +1,6 @@
-package br.com.cardoso.lettuce.repository
+package br.com.cardoso.redisson.repository
 
-import br.com.cardoso.lettuce.model.Artist
+import br.com.cardoso.redisson.model.Artist
 import org.springframework.data.repository.CrudRepository
 
 interface ArtistRepository : CrudRepository<Artist, Long> {

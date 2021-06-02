@@ -1,4 +1,4 @@
-package br.com.cardoso.lettuce.model
+package br.com.cardoso.redisson.model
 
 import java.io.Serializable
 import javax.persistence.*

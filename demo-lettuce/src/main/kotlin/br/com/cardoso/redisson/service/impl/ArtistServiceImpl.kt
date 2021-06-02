@@ -1,8 +1,8 @@
-package br.com.cardoso.lettuce.service.impl
+package br.com.cardoso.redisson.service.impl
 
-import br.com.cardoso.lettuce.model.Artist
-import br.com.cardoso.lettuce.repository.ArtistRepository
-import br.com.cardoso.lettuce.service.ArtistService
+import br.com.cardoso.redisson.model.Artist
+import br.com.cardoso.redisson.repository.ArtistRepository
+import br.com.cardoso.redisson.service.ArtistService
 import org.springframework.cache.annotation.CacheEvict
 import org.springframework.cache.annotation.Cacheable
 import org.springframework.stereotype.Service

@@ -1,7 +1,7 @@
-package br.com.cardoso.lettuce.controller
+package br.com.cardoso.redisson.controller
 
-import br.com.cardoso.lettuce.model.Artist
-import br.com.cardoso.lettuce.service.ArtistService
+import br.com.cardoso.redisson.model.Artist
+import br.com.cardoso.redisson.service.ArtistService
 import org.springframework.web.bind.annotation.*
 
 @RestController

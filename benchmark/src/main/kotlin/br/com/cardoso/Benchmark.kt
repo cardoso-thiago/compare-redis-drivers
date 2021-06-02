@@ -54,6 +54,7 @@ fun main() {
 
 private fun executeAsyncRequest(client: AsyncHttpClient, url: String) {
     println("Executando a request '$url'")
+    count++
 
     client.prepareGet(url)
             .execute(object : AsyncHandler<Int> {
@@ -73,13 +74,11 @@ private fun executeAsyncRequest(client: AsyncHttpClient, url: String) {
                 }
 
                 override fun onCompleted(): Int? {
-                    count++
                     println("Retorno para a request '$url': $status => $count")
                     return status
                 }
 
                 override fun onThrowable(t: Throwable) {
-                    count++
                     countErrors++
                     System.err.println("Erro ao obter o artista para a request '$url' => $count")
                 }

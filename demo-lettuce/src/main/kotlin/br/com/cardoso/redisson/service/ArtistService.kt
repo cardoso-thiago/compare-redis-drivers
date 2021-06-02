@@ -1,6 +1,6 @@
-package br.com.cardoso.lettuce.service
+package br.com.cardoso.redisson.service
 
-import br.com.cardoso.lettuce.model.Artist
+import br.com.cardoso.redisson.model.Artist
 
 interface ArtistService {
 
