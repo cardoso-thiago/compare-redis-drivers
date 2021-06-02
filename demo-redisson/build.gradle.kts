@@ -21,8 +21,9 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-data-redis"){
 		exclude(group = "io.lettuce", module = "lettuce-core")
 	}
-	implementation("org.redisson:redisson:3.15.5")
+	implementation("org.redisson:redisson-spring-boot-starter:3.15.5")
 	implementation("org.redisson:redisson-spring-data-24:3.15.5")
+	implementation("com.fasterxml.jackson.core:jackson-core:2.12.3")
 
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
