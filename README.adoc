@@ -4,3 +4,10 @@
 * Acessar o shell da imagem: `docker exec -it redis sh`
 ** Redis CLI: Executar o comando: `redis-cli`
 *** Listar todas as chaves de cache: `KEYS '*'`
+
+== SSL
+
+* Acessar a pasta redis
+* Gerar a imagem do arquivo config/Dockerfile
+* (Opcional) Executar o script config/gen-redis-certs.sh para gerar os certificados
+* Alterar o arquivo docker-compose.yml com o nome da imagem gerada no segundo passo e executar
