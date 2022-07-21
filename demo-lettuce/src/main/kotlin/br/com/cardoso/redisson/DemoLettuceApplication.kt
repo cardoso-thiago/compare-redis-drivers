@@ -16,14 +16,15 @@ class DemoLettuceApplication {
     @Bean
     fun lettuceConnectionFactory(): LettuceConnectionFactory {
         val clientConfig: LettuceClientConfiguration = LettuceClientConfiguration.builder()
-            .useSsl().and()
             .commandTimeout(Duration.ofSeconds(2))
             .shutdownTimeout(Duration.ZERO)
             .build()
-        return LettuceConnectionFactory(
+        val lettuceConnectionFactory = LettuceConnectionFactory(
             RedisStandaloneConfiguration("localhost", 6379),
             clientConfig
         )
+        lettuceConnectionFactory.eagerInitialization = true
+        return lettuceConnectionFactory
     }
 }
 

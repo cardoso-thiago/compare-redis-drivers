@@ -15,20 +15,20 @@ class Benchmark
 
 var count = 0
 var countErrors = 0
-var target = 100
+var target = 10000
 
 @ExperimentalTime
 fun main() {
     val client = Dsl.asyncHttpClient()
     val resource = Benchmark::class.java.getResource("/artists.json")
     if (resource != null) {
-        val initialPostRequest: Request = RequestBuilder(HttpConstants.Methods.POST)
-                .setUrl("http://localhost:9999/add")
-                .addHeader("Accept", "application/json")
-                .addHeader("Content-Type", "application/json")
-                .setBody(resource.readText())
-                .build()
-        System.err.println("Response Initial Post: " + client.executeRequest(initialPostRequest).get().statusCode)
+//        val initialPostRequest: Request = RequestBuilder(HttpConstants.Methods.POST)
+//                .setUrl("http://localhost:9999/add")
+//                .addHeader("Accept", "application/json")
+//                .addHeader("Content-Type", "application/json")
+//                .setBody(resource.readText())
+//                .build()
+//        System.err.println("Response Initial Post: " + client.executeRequest(initialPostRequest).get().statusCode)
 
         val alphabet = "abcdefghijklmnopqrstuvxwyz"
         val after = Instant.now()

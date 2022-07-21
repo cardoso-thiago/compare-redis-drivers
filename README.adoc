@@ -11,3 +11,13 @@
 * Gerar a imagem do arquivo config/Dockerfile
 * (Opcional) Executar o script config/gen-redis-certs.sh para gerar os certificados
 * Alterar o arquivo docker-compose.yml com o nome da imagem gerada no segundo passo e executar
+
+== Uso de Memória e CPU
+
+Lettuce
+
+image::demo-lettuce/lettuce.png[]
+
+Redisson
+
+image::demo-redisson/redisson.png[]
